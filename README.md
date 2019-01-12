@@ -32,6 +32,7 @@ Now, to execute the above features, replace "python main.py" with "donna". For e
     donna init
 ```
 ### Note
-* This fun execution is valid for one terminal session and will disapear after closing the terminal(due to the limitations of "alias" command). 
-* If you need to makee it permanent across multiple sessions add it to the .bashrc file and then source it. So, for every new terminal session, please repeat the same instructions again for fun execution.
+* This fun execution is valid for one terminal session and will disapear after closing the terminal(due to the limitations of "alias" command). So, for every new terminal session, please repeat the same instructions again for fun execution.
+* If you need to make it permanent across multiple sessions add it to the .bashrc file and then source it.
+* Add your access key in online function  in main.py to push code to your dropbox account.
 ~                                     
