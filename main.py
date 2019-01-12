@@ -14,7 +14,6 @@ import dropbox
 
 
 
-print("Hello")
 #Using click library thorugh the placeholder "donna" to capture command line arguments
 @click.group()
 def donna():
