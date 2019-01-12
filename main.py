@@ -171,7 +171,7 @@ def diff(**kwargs):
 def online(**kwargs):
 	#Uploads a file to Dropbox
     fileName = kwargs['file']
-    access_token = 'd8tbHl4zVzAAAAAAAAAAHLK5v2VX266FV-pH3uV8WUQtJrdc6-9FwyEpjwy63k1m'
+    access_token = ''
     client = dropbox.client.DropboxClient(access_token)
     print "Linked account: ", client.account_info()
     f = open(fileName, 'rb')
